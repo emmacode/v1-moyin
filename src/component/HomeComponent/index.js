@@ -2,6 +2,10 @@ import React, { Component } from 'react'
 
 import Home from "./Home"
 import Layout from '../../sharedComponent/Layout'
+import Description from './Description'
+import Project from "./Project"
+import About from "./About"
+import Contact from "./Contact"
 
 class HomeComponent extends Component {
     render() {
@@ -9,6 +13,10 @@ class HomeComponent extends Component {
             <>
                 <Layout {...this.props}>
                     <Home />
+                    <Description />
+                    <Project />
+                    <About />
+                    <Contact />
                 </Layout>
             </>
         )

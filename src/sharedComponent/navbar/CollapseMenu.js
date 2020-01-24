@@ -19,17 +19,12 @@ const CollapseMenu = (props) => {
         <NavLinks>
           <li className="nav-link moyin__link">
             <NavLink style={{ textDecoration: "none" }} to="/">
-              Home
+              Projects
             </NavLink>
           </li>
           <li className="nav-link moyin__link">
             <NavLink style={{ textDecoration: "none" }} to="/about">
               About
-            </NavLink>
-          </li>
-          <li className="nav-link moyin__link">
-            <NavLink style={{ textDecoration: "none" }} to="/work">
-              Works
             </NavLink>
           </li>
           <li className="nav-link moyin__link">
@@ -47,7 +42,7 @@ const CollapseMenu = (props) => {
 export default CollapseMenu;
 
 const CollapseWrapper = styled(animated.div)`
-  background: #fff;
+  background: #00003f;
   position: fixed;
   top: 5.5rem;
   left: 0;

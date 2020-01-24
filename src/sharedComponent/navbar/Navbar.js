@@ -27,15 +27,12 @@ const Navbar = (props) => {
           <Brand />
           <NavLinks style={linkAnimation}>
             <NavLink style={{ textDecoration: "none" }} to="/">
-              Home
+              Projects
               </NavLink>
             <NavLink style={{ textDecoration: "none" }} to="/about">
               About
             </NavLink>
             <NavLink style={{ textDecoration: "none" }} to="/work">
-              Works
-            </NavLink>
-            <NavLink style={{ textDecoration: "none" }} to="/contact">
               Contact
             </NavLink>
           </NavLinks>
@@ -62,7 +59,7 @@ const NavBar = styled(animated.nav)`
   width: 100%;
   top: 0;
   left: 0;
-  background: #080808;
+  background: #00003f;
   z-index: 1;
   font-size: 1.4rem;
 `;
@@ -82,7 +79,7 @@ const NavLinks = styled(animated.ul)`
   margin: auto 0;
   
   & a {
-    color: rgba(255, 255, 255, 0.801);
+    color: #e6f1ff;
     text-transform: uppercase;
     font-weight: 600;
     border-bottom: 1px solid transparent;
@@ -91,9 +88,12 @@ const NavLinks = styled(animated.ul)`
     text-decoration: none;
     cursor: pointer;
 
+    &:active {
+      color:#ef3636
+    }
+
     &:hover {
-      color: #443ae5;
-      border-bottom: 1px solid #443ae5;
+      color: #ef3636;
     }
 
     @media (max-width: 768px) {

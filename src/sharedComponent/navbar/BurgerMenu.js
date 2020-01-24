@@ -22,7 +22,7 @@ const Wrapper = styled.div`
   display: block;
 
   & span {
-    background: #fff;
+    background: #e6f1ff;
     display: block;
     position: relative;
     width: 3.5rem;
