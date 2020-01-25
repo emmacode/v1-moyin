@@ -13,6 +13,7 @@ class Project extends PureComponent {
     render() {
         return (
             <>
+                <a href id="projects"></a>
                 <section className="project__body">
                     <div className="project__02 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.3s">
                         <div className="project__02-head">
@@ -35,16 +36,18 @@ class Project extends PureComponent {
                         </div>
 
                         <div className="project__detail2">
-                            <div className="project__desc-title">Digitx</div>
-                            <div className="project__desc-img">
-                                <img src={digitx} alt="digitx" className="digitx" />
-                                <img src={digitx2} alt="digitx" className="digitx2" />
+                            <a href="https://digitx.netlify.com/" target="_blank">
+                                <div className="project__desc-title">Digitx</div>
+                                <div className="project__desc-img">
+                                    <img src={digitx} alt="digitx" className="digitx" />
+                                    <img src={digitx2} alt="digitx" className="digitx2" />
 
-                            </div>
-                            <div className="project__desc">
-                                <span>Website design, <br /> Digital Marketing Service</span>
-                                <span>2018</span>
-                            </div>
+                                </div>
+                                <div className="project__desc">
+                                    <span>Website design, <br /> Digital Marketing Service</span>
+                                    <span>2018</span>
+                                </div>
+                            </a>
                             <hr className="project__desc-hr" />
                         </div>
 
@@ -69,27 +72,31 @@ class Project extends PureComponent {
                         </div>
 
                         <div className="project__detail-row2-2">
-                            <div className="project__desc-title">Creatella Faces</div>
-                            <div className="project__desc-img">
-                                <img src={creatella} alt="creatella" className="creatella" />
-                            </div>
-                            <div className="project__desc">
-                                <span>Website application, <br /> Emoji Search Engine (google font like)</span>
-                                <span>2019</span>
-                            </div>
+                            <a href="https://github.com/emmacode/creatella-test" target="_blank">
+                                <div className="project__desc-title">Creatella Faces</div>
+                                <div className="project__desc-img">
+                                    <img src={creatella} alt="creatella" className="creatella" />
+                                </div>
+                                <div className="project__desc">
+                                    <span>Website application, <br /> Emoji Search Engine (google font like)</span>
+                                    <span>2019</span>
+                                </div>
+                            </a>
                             <hr className="project__desc-hr" />
                         </div>
 
                         <div className="project__detail-row2-3">
-                            <div className="project__desc-title">calenpoint</div>
-                            <div className="project__desc-img">
-                                <img src={calenpoint} alt="tcode" className="calenpoint" />
-                                <img src={calenpoint2} alt="tcode" className="calenpoint2" />
-                            </div>
-                            <div className="project__desc">
-                                <span>Website design, <br /> Investing Scheme</span>
-                                <span>2019</span>
-                            </div>
+                            <a href="https://calenpoint.netlify.com/" target="_blank">
+                                <div className="project__desc-title">calenpoint</div>
+                                <div className="project__desc-img">
+                                    <img src={calenpoint} alt="tcode" className="calenpoint" />
+                                    <img src={calenpoint2} alt="tcode" className="calenpoint2" />
+                                </div>
+                                <div className="project__desc">
+                                    <span>Website design, <br /> Investing Scheme</span>
+                                    <span>2019</span>
+                                </div>
+                            </a>
                             <hr className="project__desc-hr" />
                         </div>
                     </div>

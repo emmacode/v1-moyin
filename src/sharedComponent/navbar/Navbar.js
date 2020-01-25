@@ -26,13 +26,13 @@ const Navbar = (props) => {
         <FlexContainer>
           <Brand />
           <NavLinks style={linkAnimation}>
-            <NavLink style={{ textDecoration: "none" }} to="/">
+            <NavLink style={{ textDecoration: "none" }} to="/#projects">
               Projects
               </NavLink>
-            <NavLink style={{ textDecoration: "none" }} to="/about">
+            <NavLink style={{ textDecoration: "none" }} to="/#about">
               About
             </NavLink>
-            <NavLink style={{ textDecoration: "none" }} to="/work">
+            <NavLink style={{ textDecoration: "none" }} to="/#contact">
               Contact
             </NavLink>
           </NavLinks>

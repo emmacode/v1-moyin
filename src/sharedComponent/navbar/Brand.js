@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const Brand = () => {
   return (
-    <NavLink to="/">
+    <NavLink to="/" className="brand__link">
       <h1>AM</h1>
     </NavLink>
   )

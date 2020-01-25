@@ -227,6 +227,10 @@
     height: 35.2rem;
   }
 
+  .project__detail2 a {
+    text-decoration: none;
+  }
+
   .digitx {
     width: 20rem;
     height: 35.2rem;
@@ -332,6 +336,10 @@
     margin-top: 10rem;
   }
 
+  .project__detail-row2-2 a {
+    text-decoration: none;
+  }
+
   .creatella {
     width: 40rem;
     height: 30.2rem;
@@ -341,6 +349,10 @@
   .project__detail-row2-3 {
     margin-left: 5rem;
     margin-top: 10rem;
+  }
+
+  .project__detail-row2-3 a {
+    text-decoration: none;
   }
 
   .calenpoint {

@@ -13,6 +13,21 @@ body {
   scroll-behavior: smooth;
 }
 
+.moyin__link a {
+  color: #e6f1ff !important;
+}
+
+.moyin__link:hover a {
+  color: #ef3636;
+}
+
+.brand__link {
+  font-family: 'Monoton', cursive;
+  color: #e6f1ff;
+  text-decoration: none;
+  font-size: 3rem;
+}
+
 @media screen and (min-width: 1440px) {
   /* HOME */
 
@@ -246,6 +261,10 @@ body {
     margin-left: 5rem;
   }
 
+  .project__detail2 a {
+    text-decoration: none;
+  }
+
   .digitx {
     width: 20rem;
     height: 35.2rem;
@@ -349,6 +368,10 @@ body {
     margin-top: 20rem;
   }
 
+  .project__detail-row2-2 a {
+    text-decoration: none;
+  }
+
   .creatella {
     width: 50rem;
     height: 35.2rem;
@@ -358,6 +381,10 @@ body {
   .project__detail-row2-3 {
     margin-left: 5rem;
     margin-top: 10rem;
+  }
+
+  .project__detail-row2-3 a {
+    text-decoration: none;
   }
 
   .calenpoint {

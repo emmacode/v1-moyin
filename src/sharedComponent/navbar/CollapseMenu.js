@@ -61,13 +61,13 @@ const NavLinks = styled.ul`
   & a {
     font-size: 1.4rem;
     line-height: 2;
-    color: #000;
+    color: #e6f1ff;
     text-transform: uppercase;
     text-decoration: none;
     cursor: pointer;
 
     &:hover {
-      color: #443ae5;
+      color: #ef3636;
       border-bottom: 1px solid #443ae5;
     }
   }

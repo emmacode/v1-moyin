@@ -4,6 +4,7 @@ class Contact extends PureComponent {
     render() {
         return (
             <>
+            <div id="contact"></div>
                 <section className="contact__body wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1s">
                     <div className="contact__details">
                         Say hello, <br />

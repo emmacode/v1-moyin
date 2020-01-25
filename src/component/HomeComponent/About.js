@@ -18,6 +18,7 @@ class About extends PureComponent {
         ]
         return (
             <>
+                <div id="about"></div>
                 <section className="about__body wow fadeInUp" data-wow-duration="1.5s">
                     <div className="about__02">
                         <div className="about__02-head">

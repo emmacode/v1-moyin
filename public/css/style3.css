@@ -207,6 +207,10 @@
     margin-bottom: 5rem;
   }
 
+  .project__detail2 a {
+    text-decoration: none;
+  }
+
   .digitx {
     display: none;
     width: 20rem;
@@ -310,6 +314,10 @@
     margin-bottom: 5rem;
   }
 
+  .project__detail-row2-2 a {
+    text-decoration: none;
+  }
+
   .button .arrowright {
     transform: rotate(45deg);
     width: 5rem;
@@ -323,6 +331,10 @@
 
   .project__detail-row2-3 {
     width: 100%;
+  }
+
+  .project__detail-row2-3 a {
+    text-decoration: none;
   }
 
   .calenpoint {
