@@ -49,6 +49,9 @@
   .home__banner-desc i {
     color: #e6f1ff;
     font-weight: normal;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      "Helvetica Neue", sans-serif, Arial, sans-serif, calibre, "San Francisco",
+      "SF Pro Text", system-ui;
     font-size: 1.6rem;
     margin-top: 2rem;
   }
@@ -67,7 +70,9 @@
     -webkit-transition: ease-out 0.4s;
     -moz-transition: ease-out 0.4s;
     transition: ease-out 0.4s;
-    font-family: "Courier New", Courier, monospace;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      "Helvetica Neue", sans-serif, Arial, sans-serif, calibre, "San Francisco",
+      "SF Pro Text", system-ui;
   }
 
   .slide-diagonal:hover {
@@ -195,7 +200,9 @@
   .project__desc-title {
     font-size: 2.5rem;
     font-weight: bold;
-    font-family: "Montserrat", sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      "Helvetica Neue", sans-serif, Arial, sans-serif, calibre, "San Francisco",
+      "SF Pro Text", system-ui;
     color: #e6f1ff;
     margin-bottom: 5rem;
   }
@@ -214,7 +221,9 @@
 
   .project__desc span {
     color: #e6f1ff;
-    font-family: "Courier New", Courier, monospace;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      "Helvetica Neue", sans-serif, Arial, sans-serif, calibre, "San Francisco",
+      "SF Pro Text", system-ui;
     font-size: 1.6rem;
     font-weight: 400;
   }
@@ -407,7 +416,9 @@
   }
 
   .about__me {
-    font-family: "Courier New", Courier, monospace;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      "Helvetica Neue", sans-serif, Arial, sans-serif, calibre, "San Francisco",
+      "SF Pro Text", system-ui;
     font-weight: 400;
     font-size: 1.8rem;
     color: #e6f1ff;
@@ -426,7 +437,9 @@
   }
 
   .about__skill h3 {
-    font-family: "Montserrat", sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      "Helvetica Neue", sans-serif, Arial, sans-serif, calibre, "San Francisco",
+      "SF Pro Text", system-ui;
     font-size: 3rem;
     font-weight: 400;
     color: #e6f1ff;
@@ -441,7 +454,6 @@
   }
 
   .skill span {
-    font-family: "Courier New", Courier, monospace;
     font-weight: 200;
     font-size: 1.5rem;
     border: 0.5px solid #ef3636;
@@ -449,6 +461,9 @@
     margin-bottom: 0.5rem;
     padding: 0.9rem;
     color: #e6f1ff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      "Helvetica Neue", sans-serif, Arial, sans-serif, calibre, "San Francisco",
+      "SF Pro Text", system-ui;
   }
 
   /* End of About */

@@ -9,7 +9,7 @@
   <meta name="description" content="Moyin: Front end developer" />
   <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-  <link href="https://fonts.googleapis.com/css?family=Monoton|Montserrat:400,600,700,800,900&display=swap"
+  <link href="https://fonts.googleapis.com/css?family=Monoton|Montserrat|Muli:400,600,700,800,900&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css">
   <link rel="stylesheet" href="./css/main.css">
@@ -26,6 +26,21 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
   <script>
     new WOW().init();
+  </script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('worker.js').then(function (registration) {
+          console.log('Worker registration successful', registration.scope);
+        }, function (err) {
+          console.log('Worker registration failed', err);
+        }).catch(function (err) {
+          console.log(err);
+        });
+      });
+    } else {
+      console.log('Service Worker is not supported by browser.');
+    }
   </script>
 </body>
 
