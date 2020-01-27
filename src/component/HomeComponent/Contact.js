@@ -10,7 +10,7 @@ class Contact extends PureComponent {
                         Say hello, <br />
                         <a href="mailto:afolabimoyinoluwa4@gmail.com" target="_blank">Send me an email</a>!<br />
                         Or check my <br />
-                        <a href="www.linkedin.com/in/afolabi-moyinoluwa-64b196137" target="_blank">
+                        <a href="https://linkedin.com/in/afolabi-moyinoluwa-64b196137" target="_blank">
                             LinkedIn
                         </a><br />
                         and <a href="https://twitter.com/soft_moyin" target="_blank">Twitter</a>.
