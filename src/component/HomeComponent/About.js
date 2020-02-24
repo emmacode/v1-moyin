@@ -34,8 +34,9 @@ class About extends PureComponent {
                         HTML, CSS, JS(TypeScript), building small and medium
                         Web apps with React JS, custom plugins, features, animations, and coding interactive layouts.
                 <br /><br />
-                        Currently a third year student at <a href="https://oauife.edu.ng/">OAU</a> and
-                        also a front end engineer with <a href="https://www.elta.com.ng/">Elta Solutions</a> building Javascript applications and interfaces for organisations and Individuals.
+                        {/* Currently a third year student at <a target="_blank" href="https://oauife.edu.ng/">OAU</a> and
+                        also */}
+                        I'm currently a Front-End engineer with <a target="_blank" href="https://www.elta.com.ng/">Elta Solutions</a> building Javascript applications and interfaces for organisations and Individuals.
                 <br /><br />
                         I dream of becoming a successful tech entreprenuer and help solving real life world issues rather than exaggerating "making the world a better place".
                 </div>
