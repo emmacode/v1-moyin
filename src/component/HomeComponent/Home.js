@@ -15,7 +15,7 @@ class Home extends Component {
                         <div className="home__banner">
                             <div className="home__banner-desc">
                                 <h1>Afolabi Moyinoluwa</h1>
-                                <i>Creative Front-end Developer</i>
+                                <i>Creative Front-End Engineer</i>
                                 <div className="button-slide slide-diagonal">
                                     About Me
                                 <span>
