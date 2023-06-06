@@ -18,7 +18,7 @@ class Home extends Component {
                                 <i>Creative Front-End Engineer</i>
                                 <div className="button-slide slide-diagonal">
                                     About Me
-                                <span>
+                                    <span>
                                         <ArrowRightAltIcon />
                                     </span>
                                 </div>
@@ -47,7 +47,7 @@ class Home extends Component {
                                 </div>
                                 <div className="home__banner-social-item">
                                     <span>
-                                        <a href="https://www.instagram.com/moyinafolabi/">
+                                        <a href="https://www.instagram.com/soft_moy/">
                                             <InstagramIcon style={{ fontSize: "30px", color: "#e6f1ff" }} />
                                         </a>
                                     </span>

@@ -1,12 +1,12 @@
 import React, { PureComponent } from 'react';
 import arrowdown from "../../assets/arrowdown.png";
 
-import plume from "../../assets/plume.png";
-import digitx from "../../assets/digitx.png";
-import digitx2 from "../../assets/digitx2.png";
+import digitx from "../../assets/hendray.png";
+import digitx2 from "../../assets/hendray.png";
 import creatella from "../../assets/creatella.jpg";
 import calenpoint from "../../assets/calenpoint.png";
 import calenpoint2 from "../../assets/calenpoint2.png";
+import javico from "../../assets/javico.png"
 
 class Project extends PureComponent {
 
@@ -24,28 +24,37 @@ class Project extends PureComponent {
                     </div>
                     <div className="project__detail wow fadeInUp" data-wow-duration="1.5s">
                         <div className="project__detail1">
-                            <div className="project__desc-title">Plume</div>
-                            <div className="project__desc-img">
-                                <img src={plume} alt="plume" className="plume" />
-                            </div>
-                            <div className="project__desc">
-                                <span>Website application, <br /> Business Search Engine</span>
-                                <span>2020</span>
-                            </div>
+                            <a href='https://github.com/emmacode/javico' target='_blank'>
+                                <div className="project__desc-title">Plume</div>
+                                <div className="project__desc-img">
+                                    <img src={javico} alt="javico" className="plume" />
+                                </div>
+                                <div className="project__desc">
+                                    <span>
+                                        Javico is an open-source
+                                        project built to collaborate,
+                                        <br />
+                                        and get instant code reviews
+                                        from members of the
+                                        community
+                                    </span>
+                                    <span>2021</span>
+                                </div>
+                            </a>
                             <hr className="project__desc-hr" />
                         </div>
 
                         <div className="project__detail2">
-                            <a href="https://digitx.netlify.com/" target="_blank">
-                                <div className="project__desc-title">Digitx</div>
+                            <a href="https://hendrayfinvest.netlify.app/" target="_blank">
+                                <div className="project__desc-title">HendrayFinvest</div>
                                 <div className="project__desc-img">
                                     <img src={digitx} alt="digitx" className="digitx" />
                                     <img src={digitx2} alt="digitx" className="digitx2" />
 
                                 </div>
                                 <div className="project__desc">
-                                    <span>Website design, <br /> Digital Marketing Service</span>
-                                    <span>2018</span>
+                                    <span>Website design, <br /> Financial service</span>
+                                    <span>2020</span>
                                 </div>
                             </a>
                             <hr className="project__desc-hr" />
@@ -86,14 +95,14 @@ class Project extends PureComponent {
                         </div>
 
                         <div className="project__detail-row2-3">
-                            <a href="https://calenpoint.netlify.com/" target="_blank">
+                            <a href="#">
                                 <div className="project__desc-title">calenpoint</div>
                                 <div className="project__desc-img">
                                     <img src={calenpoint} alt="tcode" className="calenpoint" />
                                     <img src={calenpoint2} alt="tcode" className="calenpoint2" />
                                 </div>
                                 <div className="project__desc">
-                                    <span>Website design, <br /> Investing Scheme</span>
+                                    <span>Web App, <br /> PWA for setting reminder</span>
                                     <span>2019</span>
                                 </div>
                             </a>

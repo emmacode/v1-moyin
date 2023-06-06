@@ -4,17 +4,15 @@ class About extends PureComponent {
     render() {
         const skills = [
             { text: "JavaScript" },
-            { text: "JSX" },
-            { text: "HTML" },
-            { text: "CSS" },
+            { text: "TypeScript" },
             { text: "SASS" },
             { text: "React" },
             { text: "Redux" },
+            { text: "React-Query" },
             { text: "Git" },
-            { text: "Bootstrap" },
+            { text: "Jest" },
             { text: "Material UI" },
-            { text: "Node" },
-            { text: "Flutter" },
+            { text: "Tailwind CSS" }
         ]
         return (
             <>
@@ -30,16 +28,18 @@ class About extends PureComponent {
                     <div className="about__me">
                         The main area of my expertise is front end development <br />
                         (Client side of the web).
-                <br /><br />
+                        <br /><br />
                         HTML, CSS, JS(TypeScript), building small and medium
                         Web apps with React JS, custom plugins, features, animations, and coding interactive layouts.
-                <br /><br />
+                        <br /><br />
                         {/* Currently a third year student at <a target="_blank" href="https://oauife.edu.ng/">OAU</a> and
                         also */}
-                        I'm currently a Front-End engineer with <a target="_blank" href="https://www.elta.com.ng/">Elta Solutions</a> building Javascript applications and interfaces for organisations and Individuals.
-                <br /><br />
+                        {/* I'm currently a Front-End engineer with <a target="_blank" href="https://www.elta.com.ng/">Elta Solutions</a> building Javascript applications and interfaces for organisations and Individuals. */}
+                        <br /><br />
                         I dream of becoming a successful tech entreprenuer and help solving real life world issues rather than exaggerating "making the world a better place".
-                </div>
+                        <br /><br />
+                        Here is a link to my resume <a target="_blank" href="https://afolabimoyin.tiiny.site/">My Resume</a>
+                    </div>
                     <div className="about__skill wow fadeIn" data-wow-duration="2s" data-wow-delay="1s">
                         <h3>Skills</h3>
                         <div className="skill">
